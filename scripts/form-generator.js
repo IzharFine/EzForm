@@ -116,7 +116,7 @@ Form.prototype.submitForm = function () {
         }
     });
     if (output != "") {
-        var message = "You must fill the next fields: " + output;
+        var message = "You must fill the following fields: " + output;
         if (this.options.submitButtonCallBack != null) {
             this.options.submitButtonCallBack.call(this, false, message);
         }
