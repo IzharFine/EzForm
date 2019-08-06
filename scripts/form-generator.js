@@ -98,7 +98,7 @@ Form.prototype.addSubmitButton = function (form) {
     var submitButton = document.createElement("input");
     submitButton.className = "fg-btn";
     submitButton.type = "button";
-    submitButton.value = "שלח טופס";
+    submitButton.value = "Send";
     submitButton.addEventListener("click", function () {
         self.submitForm();
     });
@@ -116,7 +116,7 @@ Form.prototype.submitForm = function () {
         }
     });
     if (output != "") {
-        var message = "חובה למלא את השדות הבאים: " + output;
+        var message = "You must fill the next fields: " + output;
         if (this.options.submitButtonCallBack != null) {
             this.options.submitButtonCallBack.call(this, false, message);
         }
@@ -138,7 +138,7 @@ Form.prototype.submitForm = function () {
                 }
                 else {
                     if (respones.message.toLowerCase() == "ok") {
-                        that.showMsgBox("טופס נשלח בהצלחה.", "fg-success");
+                        that.showMsgBox("Form sent successfully.", "fg-success");
                     }
                     else {
                         that.showMsgBox(respones.message, "fg-error");
@@ -294,7 +294,7 @@ Field.prototype.updateField = function (ele) {
         value = ele.checked ? "1" : "0";
     if (this.required && value == "") {
         ele.value = this.value;
-        this.parent.showMsgBox("שדה חובה לא יכול להיות ריק.", "fg-error");
+        this.parent.showMsgBox("Mandatory field is required.", "fg-error");
     }
     else
         this.value = value;
