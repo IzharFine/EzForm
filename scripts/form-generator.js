@@ -125,6 +125,7 @@ Form.prototype.submitForm = function () {
         }
     }
     else {
+        try{
         var xhr = new XMLHttpRequest();
         var url = "APIURL" + this.apiKey;
         var xmlFields = this.convertFieldsToXml();
@@ -148,6 +149,10 @@ Form.prototype.submitForm = function () {
         };
         var data = JSON.stringify({ "data": { "Key": this.key, "FieldsAndValue": xmlFields } });
         xhr.send(data);
+        }
+        catch(error){
+            debugger;
+        }
     }
 };
 
