@@ -1,11 +1,3 @@
-﻿var jsonRespone = {
-    "FormFields": [
-        { "Type": "Text", "Title": "שם פרטי", "No": 298, "Key": 92, "Value": null, "Required": 1, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": null },
-        { "Type": "Text", "Title": "שם משפחה", "No": 298, "Key": 93, "Value": null, "Required": 0, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": null },
-        { "Type": "Text", "Title": "ת\"ז", "No": 298, "Key": 94, "Value": null, "Required": 1, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": null }, { "Type": "Text", "Title": "סלולר", "No": 298, "Key": 95, "Value": null, "Required": 0, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": null }, { "Type": "Text", "Title": "מייל", "No": 298, "Key": 96, "Value": null, "Required": 0, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": null }, { "Type": "Boolean", "Title": "אני מאשר...", "No": 298, "Key": 97, "Value": null, "Required": 1, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": null }, { "Type": "Text", "Title": "סוג הלקוח", "No": 298, "Key": 98, "Value": null, "Required": 0, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": "cu-type" }, { "Type": "Text", "Title": "תעודת זהות", "No": 298, "Key": 99, "Value": null, "Required": 0, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": "cu-id" }, { "Type": "Text", "Title": "6 ספרות של אשראי", "No": 298, "Key": 100, "Value": null, "Required": 0, "ToolTip": null, "FormName": "BCard", "ComboValues": "", "PHName": "card-id" }], "message": "OK", "FormNumber": "298", "formKey": "9242E0273A1C", "apiUrl": "APIURL?api_key=11A1E3C7-C987-5B45-BD57-30daa770d4bf"
-};
-
-
 /* Built by Izhar Fine - 2018 */
 
 
